@@ -61,13 +61,7 @@ namespace SistemaBiblioteca
             return this.msg;
         }
 
-        public DataGridView Select()
-        {
-            DataGridView dados = new DataGridView;
-            cmd.CommandText = "SELECT * FROM tbl_BooksCatalog";
-
-            return this.dados;
-        }
+        
         
         
     }
