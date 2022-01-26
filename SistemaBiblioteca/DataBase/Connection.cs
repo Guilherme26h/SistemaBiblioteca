@@ -13,7 +13,7 @@ namespace SistemaBiblioteca
     public class Connection
     {
         SqlConnection con = new SqlConnection();
-        private string DB = @"Data Source=DEV-GUILHERME\SQLEXPRESS01;Initial Catalog = Biblioteca; Integrated Security = True";
+        private string DB = //Url de conexão com banco de dados SQL Express";
 
         public Connection()
         {
